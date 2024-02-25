@@ -23,7 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('participator/', include('participator.urls')),
     path('', include('quiz.urls')),
-    path('history', include('quiz_history.urls')),
+    path('history/', include('quiz_history.urls')),
 
 ]
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
