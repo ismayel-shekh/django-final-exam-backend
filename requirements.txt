@@ -54,6 +54,7 @@ pytz
 pyxdg
 PyYAML
 
+django-cors-headers
 djangorestframework
 django-filter
 Django-ckeditor
