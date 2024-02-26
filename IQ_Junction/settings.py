@@ -29,7 +29,8 @@ SECRET_KEY = 'django-insecure-dp%a1dxq1p5%m9x+l0hls6j=kozti%18$2q!ebsyb509oc==n(
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
-CSRF_TRUSTED_ORIGINS = ['https://iq-junction.onrender.com','https://*.127.0.0.1']
+# CSRF_TRUSTED_ORIGINS = ['https://iq-junction.onrender.com','https://*.127.0.0.1']
+CORS_ALLOW_ALL_ORIGINS = True
 
 # Application definition
 
